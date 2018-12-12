@@ -286,7 +286,6 @@
 
 // REST API return codes
 #define REQ_READY_SEND   0
-#define REQ_DONE         2
 #define REQ_NOT_HANDLED -1
 
 // Special application return codes
@@ -1274,6 +1273,7 @@ public:
     QString gwWifiPw;
     QString gwWifiBackupPw;
     QString gwWifiClientPw;
+    int gwWifiPID;
     QString gwProxyAddress;
     quint16 gwProxyPort;
     QString gwTimezone;
